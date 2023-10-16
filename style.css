@@ -1,0 +1,24 @@
+/********************************************************************/
+/*                    Estilo para styledtext.html                   */
+/*  */
+
+
+body{
+    background-color: black;
+        color: white;
+    }
+h2 {
+    color: salmon;
+}
+#encabezadop1 {
+    text-align: right;
+    /* selector de id unico */
+}
+.centrado {
+    text-align: center;
+    /* Selector de clases */
+}
+/* Selector contextual, añade contexto, más de un selector separados con espacios  */
+.centrado b {
+    color: red;
+    }
